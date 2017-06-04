@@ -1,0 +1,17 @@
+{
+    "items": [{
+        "name": "MOVIE DB",
+        "link": "https://a-movie-db.herokuapp.com/",
+        "image": "/images/portfolio/movie-db.gif",
+        "date_added": "2017-06-04",
+        "description": "A personal movie database. It queries a third party API service called <a href='https://www.themoviedb.org' target='_blank'>TMDb</a> in search of the requested movie. The user can then add the movie to his/her own list of favorite movies. <small><em>This product uses the TMDb API but is not endorsed or certified by TMDb.</em></small>",
+        "technologies": [
+            "Spring Boot", "Spring Data MongoDB", "AngularJS"
+        ],
+        "attributes": {
+            "name": "TMDb",
+            "link": "https://www.themoviedb.org",
+            "description": "This product uses the TMDb API but is not endorsed or certified by TMDb."
+        }
+    }]
+}
