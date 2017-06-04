@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="section">
+    <div class="container">
+        <div class="heading">
+            <p class="title is-2">{{page.title}}</p>
+            {% if page.categories.size > 0 %}
+            <p class="subtitle is-4">
+                <span class="tag is-primary">{{page.categories}}</span>
+            </p>
+            {% endif %}
+        </div>
+        <div class="content">
+            {{content}}
+        </div>
+    </div>
+</section>

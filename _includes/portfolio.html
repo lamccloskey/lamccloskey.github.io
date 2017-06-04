@@ -1,0 +1,38 @@
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-third is-offset-one-third">
+
+                {% for item in site.data.portfolio.items %}
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <img src="{{item.image}}" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">{{item.name}}</p>
+                                <p class="subtitle is-6"><small>{{item.date_added}}</small></p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>{{item.description}}</p>
+                            {% if item.technologies.size > 0 %}
+                            {% for tech in item.technologies %}
+                            <span class="tag is-primary">{{tech}}</span>
+                            {% endfor %}
+                            {% endif %}
+                        </div>
+                        <footer class="card-footer">
+                            <a class="card-footer-item" href="{{item.link}}" target="_blank"><span>Check it out</span></a>
+                        </footer>    
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</section>

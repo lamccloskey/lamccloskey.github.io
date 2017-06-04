@@ -1,0 +1,15 @@
+# Site settings
+name: lamccloskey
+email: lamccloskey@gmail.com
+url: http://loganmccloskey.com
+description: "Just a little blog"
+author: "Logan McCloskey"
+title: "Yet Another Blog"
+permalink: pretty
+
+# social
+github:
+  username: lamccloskey
+
+twitter:
+  username: lamccloskey

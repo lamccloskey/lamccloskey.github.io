@@ -1,0 +1,25 @@
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+
+                <div class="content">
+                    {% if site.posts.size > 0 %}
+                    <ul class="is-unstyled">
+                        {% for post in site.posts %}
+                        <li>
+                            <a href="{{post.url}}">
+                                <p class="title is-1">{{post.title}}</p>
+                                <p class="subtitle is-5">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
+                            </a>
+                            <small>{{ post.date | date: '%B %d, %Y'}}</small>
+                        </li>
+                        {% endfor %}                        
+                    </ul>
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
