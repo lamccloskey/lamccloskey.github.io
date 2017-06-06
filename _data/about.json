@@ -1,0 +1,8 @@
+{
+    "summary": "Hello, my name is Logan and I like to spend my time reading, writing code, running, and seeing how many funny pictures of my cats I can take. I created this website using Jekyll and The Bulma CSS framework. I will write blog posts on tech topics and showcase some of my personal projects. I hope you like, don't forget to follow me on GitHub or Twitter.",
+    "details": [
+        ["Positions", "Web Development", "Full Stack"],
+        ["Tech", "Spring Framework", "AngularJS"],
+        ["Interests", "Reading"]
+    ]
+}

@@ -7,4 +7,4 @@
 * personal projects
 
 ---
-_Created using Jekyll and the CSS framework Bulma_
+_Powered by [Jekyll](http://jekyllrb.com/) and styled using [Bulma](http://bulma.io/)_

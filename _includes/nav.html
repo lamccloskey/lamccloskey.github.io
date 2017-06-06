@@ -6,11 +6,35 @@
                     <i class="fa fa-home"></i>
                 </span>
             </a>
+        </div>
+
+        <div class="nav-center">
+            <a class="nav-item" target="_blank" href="https://www.github.com/{{site.github.username}}/">
+                <span class="icon">
+                    <i class="fa fa-github"></i>
+                </span>
+            </a>
+            <a class="nav-item" target="_blank" href="https://www.twitter.com/{{site.twitter.username}}/">
+                <span class="icon">
+                    <i class="fa fa-twitter"></i>
+                </span>
+            </a>
+        </div>
+
+        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+        <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        </span>
+
+        <div class="nav-right nav-menu">
             {% for item in site.data.nav.items %}
             <a class="nav-item" href="{{item.link}}">
                 <span>{{item.name}}</span>
             </a>
             {% endfor %}
         </div>
-    </div>
+
 </nav>

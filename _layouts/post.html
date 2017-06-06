@@ -4,16 +4,17 @@ layout: default
 
 <section class="section">
     <div class="container">
-        <div class="heading">
-            <p class="title is-2">{{page.title}}</p>
-            {% if page.categories.size > 0 %}
-            <p class="subtitle is-4">
-                <span class="tag is-primary">{{page.categories}}</span>
-            </p>
-            {% endif %}
+        <div class="heading has-text-centered">
+            <p class="title is-3">{{page.title}}</p>
         </div>
-        <div class="content">
-            {{content}}
+        <br>
+        <div class="columns is-multiline">
+
+            <div class="column is-half is-offset-one-quarter">
+                <div class="content">
+                    {{content}}
+                </div>
+            </div>
         </div>
     </div>
 </section>

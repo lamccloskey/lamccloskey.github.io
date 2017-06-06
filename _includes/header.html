@@ -1,33 +1,12 @@
 <section class="hero is-primary is-small">
     <div class="hero-body">
-        <div class="container">
-            <p class="title is-1 has-text-centered">
+        <div class="container has-text-centered">
+            <p class="title is-1">
                 {{site.title}}
             </p>
-
-            {% if site.data.header.message.size > 0 %}
-            <div class="columns">
-                <div class="column is-half is-offset-one-quarter">
-                    <article class="message">
-                        <div class="message-body">
-                            {{ site.data.header.message }}
-                        </div>
-                    </article>
-                </div>
-            </div>
-            {% endif %}
-
-            <p class="field has-text-centered">
-                <a class="button is-medium" href="https://www.github.com/{{site.github.username}}/">
-                    <span class="icon"><i class="fa fa-github"></i></span>
-                    <span>GitHub</span>
-                </a>
-                <a class="button is-medium" href="https://www.twitter.com/{{site.twitter.username}}/">
-                    <span class="icon"><i class="fa fa-twitter"></i></span>
-                    <span>Twitter</span>
-                </a>
+            <p class="subtitle is-4">
+                {{ site.data.header.message }}
             </p>
-
         </div>
     </div>
 </section>

@@ -1,23 +1,11 @@
 body {
     font-family: avenir, helvetica, san-serif;
+    min-height: 100%;
 }
 
-ul.is-unstyled {
-    list-style: none;
-}
-
-ul>li {
-    padding: 2em;
-}
-
-ul>li:hover {
-    background: #00D1B2;
-}
-
-ul>li:active {
-    background: #67CEBF
-}
-
-.card {
-    margin-bottom: 2em;
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    padding: .4em;
+    background: #FFFFFF;
 }
