@@ -1,6 +1,5 @@
 body {
     font-family: avenir, helvetica, san-serif;
-    min-height: 100%;
 }
 
 .page-footer {
@@ -8,4 +7,13 @@ body {
     bottom: 0;
     padding: .4em;
     background: #FFFFFF;
+}
+
+.is-centered {
+    display: block;
+    margin: 0 auto;
+}
+
+.is-round {
+    border-radius: 50%;
 }

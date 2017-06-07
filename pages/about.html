@@ -8,28 +8,18 @@ permalink: /about/
 
     <div class="column is-half is-offset-one-quarter">
         <div class="content">
-            <p>{{site.data.about.summary}}</p>
+
+            <figure class="image is-96x96 is-centered">
+                <img class="is-round" src="{{site.baseurl}}/images/me.jpg">
+            </figure>
+            
             <hr>
+
+            {% for paragraph in site.data.about.paragraphs %}
+            <p>{{paragraph}}</p>
+            {% endfor %}
+            
         </div>
     </div>
     
-    <div class="column is-half is-offset-one-quarter">
-        <div class="content">
-            <div class="columns">
-
-                {% for sublist in site.data.about.details %}
-                <div class="column">
-                    <p class="title is-5 has-text-centered">{{sublist[0]}}</p>
-                    <ul>
-                        {% for item in sublist offset:1 %}
-                        <li>{{item}}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endfor %}
-
-            </div>
-        </div>
-
-    </div>
 </div>
