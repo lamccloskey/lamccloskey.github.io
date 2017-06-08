@@ -1,12 +1,23 @@
+html {
+    height: 100%;
+}
+
 body {
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
     font-family: avenir, helvetica, san-serif;
 }
 
+.wrapper {
+    margin: 0 auto;
+}
+
 .page-footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    padding: .4em;
-    background: #FFFFFF;
+    padding: 1rem;
+    width: 100%;
 }
 
 .is-centered {
@@ -16,4 +27,8 @@ body {
 
 .is-round {
     border-radius: 50%;
+}
+
+.is-rounded {
+    border-radius: 3%;
 }
