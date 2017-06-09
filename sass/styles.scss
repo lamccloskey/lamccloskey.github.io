@@ -1,3 +1,4 @@
+@import"modified-bulma";
 html {
     height: 100%;
 }
@@ -6,11 +7,6 @@ body {
     position: relative;
     padding-bottom: 6rem;
     min-height: 100%;
-    font-family: avenir, helvetica, san-serif;
-}
-
-.wrapper {
-    margin: 0 auto;
 }
 
 .page-footer {
@@ -25,10 +21,13 @@ body {
     margin: 0 auto;
 }
 
-.is-round {
-    border-radius: 50%;
-}
-
 .is-rounded {
     border-radius: 3%;
+}
+
+.hero {
+    .is-primary {
+        background-color: $blue;
+        color: $white;
+    }
 }

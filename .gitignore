@@ -1,6 +1,4 @@
 .jekyll-metadata
 _site
-#_data
-#_drafts
-#_posts
-#images
+node_modules
+css
