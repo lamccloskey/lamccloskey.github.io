@@ -1,17 +1,39 @@
 {
     "items": [{
-        "name": "MOVIE DB",
-        "link": "https://a-movie-db.herokuapp.com/",
-        "image": "/images/portfolio/movie-db.gif",
-        "date_added": "2017-06-04",
-        "description": "A personal movie database. It queries a third party API service called <a href='https://www.themoviedb.org' target='_blank'>TMDb</a> in search of the requested movie. The user can then add the movie to his/her own list of favorite movies. <small><em>This product uses the TMDb API but is not endorsed or certified by TMDb.</em></small>",
-        "technologies": [
-            "Spring Boot", "Spring Data MongoDB", "AngularJS"
-        ],
-        "attributes": {
-            "name": "TMDb",
-            "link": "https://www.themoviedb.org",
-            "description": "This product uses the TMDb API but is not endorsed or certified by TMDb."
+            "name": "Jekyll Theme - Blogfolio",
+            "link": "https://lamccloskey.github.io/jekyll-theme-blogfolio/",
+            "image": "/images/portfolio/blogfolio.gif",
+            "date_added": "2017-06-20",
+            "description": "A <a href='http://jekyllrb.com/' target='_blank'>Jekyll</a> theme styled using <a href='http://bulma.io/' target='_blank'>Bulma</a> with emphasis on blog posts and portfolio entries.",
+            "technologies": [
+                "Jekyll", "Bulma"
+            ],
+            "attributes": [{
+                    "name": "Jekyll",
+                    "link": "http://jekyllrb.com/",
+                    "description": "Transform your plain text into static websites and blogs."
+                },
+                {
+                    "name": "Bulma",
+                    "link": "http://bulma.io/",
+                    "description": "A modern CSS framework based on Flexbox"
+                }
+            ]
+        },
+        {
+            "name": "MOVIE DB",
+            "link": "https://a-movie-db.herokuapp.com/",
+            "image": "/images/portfolio/movie-db.gif",
+            "date_added": "2017-06-04",
+            "description": "A personal movie database. It queries a third party API service called <a href='https://www.themoviedb.org' target='_blank'>TMDb</a> in search of the requested movie. The user can then add the movie to his/her own list of favorite movies. <small><em>This product uses the TMDb API but is not endorsed or certified by TMDb.</em></small>",
+            "technologies": [
+                "Spring Boot", "Spring Data MongoDB", "AngularJS"
+            ],
+            "attributes": [{
+                "name": "TMDb",
+                "link": "https://www.themoviedb.org",
+                "description": "This product uses the TMDb API but is not endorsed or certified by TMDb."
+            }]
         }
-    }]
+    ]
 }

@@ -1,9 +1,9 @@
 #  lamccloskey.github.io
----
-##### Blog #####
+
+## Blog
 * tech related posts
 
-##### Portfolio #####
+## Portfolio
 * personal projects
 
 ---
