@@ -80,7 +80,7 @@ th {
 
 html {
   background-color: #FEFDFB;
-  font-size: 18px;
+  font-size: 17px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -4306,6 +4306,7 @@ html {
   height: 100%; }
 
 body {
+  background-color: #FFF;
   position: relative;
   padding-bottom: 6rem;
   min-height: 100%; }
@@ -4326,3 +4327,6 @@ body {
 .hero .is-primary {
   background-color: #4C97B7;
   color: white; }
+
+#disqus_thread {
+  margin-top: 120px; }
