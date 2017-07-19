@@ -1,5 +1,65 @@
 {
     "items": [{
+            "name": "Scroll Pad",
+            "link": "https://scrollpad.co/",
+            "image": "/images/portfolio/scrollpad.gif",
+            "date_added": "2017-07-18",
+            "description": "A simple note taking app in <em>infinite</em> vertical scroll form. Uses Firebase for hosting, storage, and authorization. Uses <a href='https://developers.facebook.com/' target='_blank'>Facebook API</a> for authentication. Uses crypto-js to encrypt/decrypt user data.",
+            "technologies": [
+                "Firebase", "FirebaseUI", "Webpack", "crypto-js", "Sass"
+            ],
+            "attributes": [{
+                    "name": "Firebase",
+                    "link": "https://firebase.google.com/",
+                    "description": "Firebase helps you build better mobile apps and grow your business."
+                },
+                {
+                    "name": "FirebaseUI",
+                    "link": "https://github.com/firebase/firebaseui-web",
+                    "description": "FirebaseUI is an open-source JavaScript library for Web that provides simple, customizable UI bindings on top of Firebase SDKs to eliminate boilerplate code and promote best practices."
+                },
+                {
+                    "name": "crypto-js",
+                    "link": "https://github.com/brix/crypto-js",
+                    "description": "JavaScript library of crypto standards."
+                },
+                {
+                    "name": "Webpack",
+                    "link": "https://webpack.js.org/",
+                    "description": "webpack is a module bundler for modern JavaScript applications."
+                },
+                {
+                    "name": "Sass",
+                    "link": "http://sass-lang.com/",
+                    "description": "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
+                }
+            ]
+        },{
+            "name": "Twitter Bot Node",
+            "link": "https://github.com/lamccloskey/twitter-bot-node",
+            "image": "/images/portfolio/twitter-bot.gif",
+            "date_added": "2017-07-18",
+            "description": "A small Node.js app to perform interactions on the <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter REST API</a>. Currently, only searches Twitter and favorites the tweets that are found.",
+            "technologies": [
+                "twitter", "prompt", "dotenv"
+            ],
+            "attributes": [{
+                    "name": "twitter",
+                    "link": "https://www.npmjs.com/package/twitter",
+                    "description": "An asynchronous client library for the Twitter REST and Streaming API's."
+                },
+                {
+                    "name": "prompt",
+                    "link": "https://www.npmjs.com/package/prompt",
+                    "description": "A beautiful command-line prompt for node.js"
+                },
+                {
+                    "name": "dotenv",
+                    "link": "https://www.npmjs.com/package/dotenv",
+                    "description": "Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env."
+                }
+            ]
+        },{
             "name": "Jekyll Theme - BlogFolio",
             "link": "https://lamccloskey.github.io/jekyll-theme-blogfolio/",
             "image": "/images/portfolio/blogfolio.gif",
