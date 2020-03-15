@@ -4,4 +4,4 @@ title: Home
 permalink: index.html
 ---
 
-{% include header.html %}
+{% include home-header.html %}

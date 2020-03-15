@@ -9,17 +9,23 @@ permalink: /about/
     <div class="column is-half is-offset-one-quarter">
         <div class="content">
 
-            <figure class="image is-96x96 is-centered">
-                <img class="is-rounded" src="{{ '/images/me.jpg' | relative_url }}">
+            <figure class="image">
+                <img class="is-rounded" src="{{ 'images/me3.jpg' | relative_url }}">
             </figure>
-            
-            <hr>
-
+            <br />
             {% for paragraph in site.data.about.paragraphs %}
             <p>{{paragraph}}</p>
             {% endfor %}
-            
+
+            <br />
+
+            <div class="has-text-centered">
+                {% for highlight in site.data.about.highlights %}
+                <p>{{highlight}}</p>
+                {% endfor %}
+            </div>
+
         </div>
     </div>
-    
+
 </div>
