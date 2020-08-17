@@ -18,16 +18,20 @@ permalink: /portfolio/
                 <div class="media">
                     <div class="media-content">
                         <p class="title is-4">{{item.name}}</p>
-                        <p class="subtitle is-6"><small>{{item.date_added}}</small></p>
                     </div>
                 </div>
                 <div class="content">
                     <p>{{item.description}}</p>
                     {% for tech in item.technologies %}
-                    <span class="tag is-primary">{{tech}}</span> {% endfor %}
+                    <span class="tag is-success"><strong>{{tech}}</strong></span> {% endfor %}
                 </div>
                 <footer class="card-footer">
-                    <a class="card-footer-item" href="{{item.link}}" target="_blank"><span>Check it out</span></a>
+                    <a class="button is-primary card-footer-item" href="{{item.link}}" target="_blank">
+                        <span>Check it out</span>
+                        <span class="icon">
+                            <i class="fa fa-arrow-circle-right"></i>
+                        </span>
+                    </a>
                 </footer>
             </div>
         </div>

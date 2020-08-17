@@ -2,7 +2,7 @@
 name: lamccloskey
 email: lamccloskey@gmail.com
 url: http://loganmccloskey.com
-description: "Logan McCloskey's professional website"
+description: "My professional website"
 author: "Logan McCloskey"
 title: "Logan McCloskey"
 permalink: pretty
@@ -18,4 +18,7 @@ twitter:
   username: lamccloskey
 
 # comments
-disqus: true
+disqus: false
+
+sass:
+  style: compressed

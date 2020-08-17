@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Home
 permalink: index.html
 ---
 
-{% include home-header.html %}
+{% include home.html %}

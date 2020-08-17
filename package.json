@@ -1,14 +1,14 @@
 {
   "name": "personal",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": {
     "url": "https://github.com/lamccloskey/lamccloskey.github.io.git",
     "type": "git"
   },
-  "author": "lamccloskey <lamccloskey@gmail.com>",
+  "author": "Logan McCloskey <lamccloskey@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "bulma": "^0.4.2"
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.9.0"
   }
 }

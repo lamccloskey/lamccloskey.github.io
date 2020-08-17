@@ -1,43 +1,48 @@
-<nav class="nav">
-    <div class="container">
-        <div class="nav-left">
-            <a class="nav-item" href="/">
+<div class="container">
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
                 <span class="icon">
                     <i class="fa fa-home"></i>
                 </span>
+                <span>{{site.title}}</span>
+            </a>
+
+            <a role="button" id="navbar-toggle" class="navbar-burger burger">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
             </a>
         </div>
 
-        <div class="nav-center">
-            <a class="nav-item" target="_blank" href="https://www.github.com/{{site.github.username}}/">
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="https://www.github.com/{{site.github.username}}">
                 <span class="icon">
                     <i class="fa fa-github"></i>
                 </span>
-            </a>
-            <a class="nav-item" target="_blank" href="https://www.linkedin.com/in/{{site.linkedin.username}}/">
+                </a>
+                <a class="navbar-item" href="https://www.linkedin.com/in/{{site.linkedin.username}}">
                 <span class="icon">
                     <i class="fa fa-linkedin"></i>
                 </span>
-            </a>
-            <a class="nav-item" target="_blank" href="https://www.twitter.com/{{site.twitter.username}}/">
+                </a>
+                <a class="navbar-item" href="https://www.twitter.com/{{site.twitter.username}}">
                 <span class="icon">
                     <i class="fa fa-twitter"></i>
                 </span>
-            </a>
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                {% for item in site.data.nav.items %}
+                <a class="navbar-item" href="{{item.link}}">
+                    <span>{{item.name}}</span>
+                </a>
+                {% endfor %}
+            </div>
+
         </div>
 
-        <span class="nav-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-        </span>
-
-        <div class="nav-right nav-menu">
-            {% for item in site.data.nav.items %}
-            <a class="nav-item" href="{{item.link}}">
-                <span>{{item.name}}</span>
-            </a>
-            {% endfor %}
-        </div>
-
-</nav>
+    </nav>
+</div>

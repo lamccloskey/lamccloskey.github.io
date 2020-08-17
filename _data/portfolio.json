@@ -3,7 +3,7 @@
         {
             "name": "Order Management Application CLI",
             "link": "https://github.com/lamccloskey/order-management-cli",
-            "image": "/images/portfolio/order-management-cli.gif",
+            "image": "/assets/images/portfolio/order-management-cli.gif",
             "date_added": "2017-11-26",
             "description": "This is a small CLI application using Java and MySQL.",
             "technologies": [
@@ -14,9 +14,9 @@
         {
             "name": "Scroll Pad",
             "link": "https://scroll-pad.firebaseapp.com/",
-            "image": "/images/portfolio/scrollpad.gif",
+            "image": "/assets/images/portfolio/scrollpad.gif",
             "date_added": "2017-07-18",
-            "description": "A simple note taking app in <em>infinite</em> vertical scroll form. Uses Firebase for hosting, storage, and authorization. Uses <a href='https://developers.facebook.com/' target='_blank'>Facebook API</a> for authentication. Uses crypto-js to encrypt/decrypt user data.",
+            "description": "A simple note taking app in <em>infinite</em> vertical scroll form. Uses Firebase for hosting, storage, and authorization. Uses <a href='https://developers.facebook.com/' >Facebook API</a> for authentication. Uses crypto-js to encrypt/decrypt user data.",
             "technologies": [
                 "Firebase",
                 "FirebaseUI",
@@ -55,9 +55,9 @@
         {
             "name": "Twitter Bot Node",
             "link": "https://github.com/lamccloskey/twitter-bot-node",
-            "image": "/images/portfolio/twitter-bot.gif",
+            "image": "/assets/images/portfolio/twitter-bot.gif",
             "date_added": "2017-07-18",
-            "description": "A small Node.js app to perform interactions on the <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter REST API</a>. Currently, only searches Twitter and favorites the tweets that are found.",
+            "description": "A small Node.js app to perform interactions on the <a href='https://dev.twitter.com/rest/public' >Twitter REST API</a>. Currently, only searches Twitter and favorites the tweets that are found.",
             "technologies": [
                 "twitter",
                 "prompt",
@@ -84,9 +84,9 @@
         {
             "name": "Jekyll Theme - BlogFolio",
             "link": "https://lamccloskey.github.io/jekyll-theme-blogfolio/",
-            "image": "/images/portfolio/blogfolio.gif",
+            "image": "/assets/images/portfolio/blogfolio.gif",
             "date_added": "2017-06-20",
-            "description": "A <a href='http://jekyllrb.com/' target='_blank'>Jekyll</a> theme styled using <a href='http://bulma.io/' target='_blank'>Bulma</a> with emphasis on blog posts and portfolio entries.",
+            "description": "A <a href='http://jekyllrb.com/' >Jekyll</a> theme styled using <a href='http://bulma.io/' >Bulma</a> with emphasis on blog posts and portfolio entries.",
             "technologies": [
                 "Jekyll",
                 "Bulma"
@@ -107,9 +107,9 @@
         {
             "name": "MOVIE DB",
             "link": "https://a-movie-db.herokuapp.com/",
-            "image": "/images/portfolio/movie-db.gif",
+            "image": "/assets/images/portfolio/movie-db.gif",
             "date_added": "2017-06-04",
-            "description": "A personal movie database. It queries a third party API service called <a href='https://www.themoviedb.org' target='_blank'>TMDb</a> in search of the requested movie. The user can then add the movie to his/her own list of favorite movies. <small><em>This product uses the TMDb API but is not endorsed or certified by TMDb.</em></small>",
+            "description": "A personal movie database. It queries a third party API service called <a href='https://www.themoviedb.org' >TMDb</a> in search of the requested movie. The user can then add the movie to his/her own list of favorite movies. <small><em>This product uses the TMDb API but is not endorsed or certified by TMDb.</em></small>",
             "technologies": [
                 "Spring Boot",
                 "Spring Data MongoDB",

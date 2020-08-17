@@ -4,28 +4,31 @@ title: About
 permalink: /about/
 ---
 
-<div class="columns is-multiline">
+<section class="hero">
+    <div class="hero-body">
+        <div class="container">
 
-    <div class="column is-half is-offset-one-quarter">
-        <div class="content">
+            <div class="columns">
+                <div class="column is-half">
+                    <h1 class="title">
+                        Hello
+                    </h1>
+                    <h2 class="subtitle">
+                        A little bit about myself
+                    </h2>
 
-            <figure class="image">
-                <img class="is-rounded" src="{{ 'images/me3.jpg' | relative_url }}">
-            </figure>
-            <br />
-            {% for paragraph in site.data.about.paragraphs %}
-            <p>{{paragraph}}</p>
-            {% endfor %}
+                    <div class="content">
 
-            <br />
+                        <br/>
+                        {% for paragraph in site.data.about.paragraphs %}
+                        <p>{{paragraph}}</p>
+                        {% endfor %}
 
-            <div class="has-text-centered">
-                {% for highlight in site.data.about.highlights %}
-                <p>{{highlight}}</p>
-                {% endfor %}
+                    </div>
+                </div>
+
             </div>
 
         </div>
     </div>
-
-</div>
+</section>
