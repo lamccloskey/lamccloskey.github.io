@@ -23,14 +23,11 @@ permalink: /portfolio/
                 <div class="content">
                     <p>{{item.description}}</p>
                     {% for tech in item.technologies %}
-                    <span class="tag is-success"><strong>{{tech}}</strong></span> {% endfor %}
+                    <span class="tag is-link is-light">{{tech}}</span> {% endfor %}
                 </div>
                 <footer class="card-footer">
-                    <a class="button is-primary card-footer-item" href="{{item.link}}" target="_blank">
+                    <a class="button is-small is-primary card-footer-item" href="{{item.link}}" target="_blank">
                         <span>Check it out</span>
-                        <span class="icon">
-                            <i class="fa fa-arrow-circle-right"></i>
-                        </span>
                     </a>
                 </footer>
             </div>
