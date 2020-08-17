@@ -1,8 +1,5 @@
 #  lamccloskey.github.io
 
-## Blog
-* tech related posts
-
 ## Portfolio
 * personal projects
 
