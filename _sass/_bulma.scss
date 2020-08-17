@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
+// import entire bulma scss
+@import "../node_modules/bulma/bulma.sass";
 
 // new initial variables
 $blue: #4C97B7;
@@ -16,6 +18,3 @@ $body-size: $root-size;
 $family-primary: $family-sans-serif;
 $primary: $blue;
 $primary-invert: $blue-invert;
-
-// import entire bulma scss
-@import "../node_modules/bulma/bulma.sass";
